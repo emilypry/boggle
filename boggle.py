@@ -144,13 +144,6 @@ def check_diagonally(board, a, b):
     all_a = get_indices(board, a)
     all_b = get_indices(board, b)
     true_of = []
-    '''
-    0123
-    4567
-    8901
-    2345
-
-    '''
 
     for i_a in all_a:
         for i_b in all_b:

@@ -179,7 +179,7 @@ def check_diagonally(board, a, b):
 def check_if_connected(board, text):
     '''Checks if the text follows the rules of connection. Returns boolean. 
     '''
-    #For each set of two consecutive letters in text, combine lists of indices for all horizontal, vertical, and diagonal connections for that letter pair into connections_for_pair. Then add connections_for_pair to all_connections, which is a list (for the entire text) of the lists (for each letter pair) showing the connections between each set of two consecutive letters in text. 
+    #For each set of two consecutive letters in text, combine lists of indices for all horizontal, vertical, and diagonal connections for that letter pair into connections_for_pair. Then add connections_for_pair to all_cons_for_let_set, which is a list (for the entire text) of the lists (for each letter pair) showing the connections between each set of two consecutive letters in text. 
     num_of_pairs = len(text) - 1
     ind_pair = 0
     ind_let = 0
